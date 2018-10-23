@@ -121,7 +121,7 @@ nav ul li a:hover{
 section{
   width:65%;
   min-height:300px;
-  background: #555;
+  background: white;
   float: right;
   margin:10px;
 }
