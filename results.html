@@ -20,7 +20,7 @@
     <div class="main-container">
       <header>
         <h1>[Game Name: ] </h1>
-        <h2>Usability Evaluation - Results</h2>
+        <h2>Usability Evaluation - Results and Discussion</h2>
       </header>
       <div class="content">
 
@@ -29,8 +29,8 @@
             <ul>
               <li><a href="index.html">Introduction </a></li>
               <li><a href="methods.html">Methods </a></li>
-              <li><a class="selected" href="results.html">Results </a></li>
-              <li><a href="discussion.html">Discussion </a></li>
+              <li><a class="selected" href="results.html">Results and Discussion</a></li>
+              <li><a href="discussion.html">Recommendations </a></li>
               <li><a href="conclusion.html">Conclusion </a></li>
               <li><a href="mashup.html">Mashup Examples </a></li>
             </ul>
@@ -42,24 +42,40 @@
 		  
 			  <h3>Burden on Player:</h3> <br>			  
 				<p>Generally few issues were found in this criteria, although one expert noted that the player was sometimes hindered by problems with the interface, citing the crosshair getting stuck on terrain as an example.</p> <br>
+				
+				<p>This was quite an important concern for the game, as the crosshair hampering the player’s ability to shoot could severely impact the combat system, which is the core of the game’s mechanics. However, as the expert noted, the problem was not frequent, and as only one expert encountered the problem, this was probably not the most pressing problem found. It also suggests that the player is able to complete the game successfully, even if the cursor has some issues, so the impact on the player should be quite small, although frustration at the interface could be a concern.</p> <br>
 
+				
 			  <h3>Feedback for Player:</h3> <br> 
 				<p>Several experts noted that the feedback in combat was not very satisfying as the audio and visual effects were limited. One expert also pointed out that the player’s charge bar was ambiguous as to what it was showing and that they were unsure what it was or why it was changing.</p> <br>
 
+				<p>While the audio effects are limited and could be improved, there are several different sounds which allow the player to tell what has happened (shot, shot deflected, etc), however there is no such variety of visual effects. Because of this, the visual feedback for the combat system may be the more important aspect to focus on. Different visual effects to indicate a projectile hitting the player would help to eliminate confusion over when they were hit. Additionally, the lack of label on the charge bar causing confusion could be a problem either with the feedback or the tutorial, as information about the mechanics should be made.</p> <br>
+				
+				
 			  <h3>Help and Documentation:</h3> <br> 
-				<p>All three experts raised concerns over the game’s tutorial system (signposts on the ground that the player can walk up to and read). It was noted that there was nothing forcing the player to read the signs or anything to stop them from walking past without reading them at all, which could easily lead to the player skipping the tutorial without meaning to. This was reinforced by one of the experts not realising that the signposts were interactive and simply ignoring them. Additionally, it was a point of concern that the tutorial, even when read, did not explain that reflecting projectiles charged the player’s weapon, which is a core mechanic in the game.</p> <br>
+				<p>All three experts raised concerns over the game’s tutorial system (signposts on the ground that the player can walk up to and read). It was noted that there was nothing forcing the player to read the signs or anything to stop them from walking past without reading them at all, which could easily lead to the player skipping the tutorial without meaning to. This was reinforced by one of the experts not realising that the signposts were interactive and simply ignoring them.</p> <br>
+				
+				<p>This is a critical usability issue and appears to be a large oversight in the design of the tutorial. The ability for the player to unintentionally skip the tutorial could have a massive negative impact on their experience playing the game, as they may easily become frustrated, causing them to stop playing. The most obvious alternative to this would be to implement a controls menu screen which would allow the player to view the controls at any point in the game, removing the dependency on finding the tutorial at the right time.</p><br>
+				
+				<p>Additionally, it was a point of concern that the tutorial, even when read, did not explain that reflecting projectiles charged the player’s weapon, which is a core mechanic in the game. This is a more minor issue as the game is still playable without this knowledge, and the design of the game makes it highly likely that the player will discover this for themselves, potentially even adding to the experience by allowing them to find new mechanics. </p> <br>
 
+				
 			  <h3>Status and Score:</h3> <br>
-				<p>The lack of progress indication was a common issue, as the game does not provide any form of objective or direction indication. Despite this, one expert found the NPC characters throughout the level to be enough indication of direction. A larger concern raised was that enemies did not have a health bar to display their status, which could leave the player confused or frustrated in combat.</p> <br>
+				<p>The lack of progress indication was a common issue, as the game does not provide any form of objective or direction indication. Despite this, one expert found the NPC characters throughout the level to be enough indication of direction. This is interesting as the NPC character’s were originally designed for that exact purpose – in addition to furthering the story – however it seems that due to only one of the experts finding the NPCs helpful, the implementation could have been better. Placing them less out of the way could have forced the player to interact with them, confirming that they were travelling in the right direction. Despite this however, the concern is overall not critical, as the linear level design will eventually lead players to the end of the level, as long as they keep moving forward.</p><br>
 
+				<p>A larger concern raised was that enemies did not have a health bar to display their status, which could leave the player confused or frustrated in combat. This is another design oversight that could leave the players unsure of the effect their actions are having, possibly resulting in a feeling of incompetence or annoyance which would reduce their enjoyment of the game. Simple health bars over enemy heads could alleviate this problem, although they could clutter the screen in crowded situations. Enemy models that change visually based on the damage done to them could be a better solution because of this.</p> <br>
 
+				
 			  <h3>Gameplay and Story Integration:</h3> <br> 
 				<p>The separation of the game’s story and gameplay was a large issue here. One expert noted that the NPC character who delivered the story was easily missed and there was nothing preventing the player from ignoring them while another pointed out that the gameplay is entirely independent of the story and that some form of interactivity between the villain the and the player in the gameplay could have helped to fix this.</p> <br>
 				
+				<p>The lack of interconnectivity between mechanics and story mentioned by the expert is one of the bigger usability problems in the game. Without any way for the player’s actions to impact the story, they lose their sense of agency, effectively reducing the story to meaningless exposition. An effective and fairly simple way to connect these two elements would have been to implement the villain of the story as an enemy character in a boss fight. This not only creates an actual sense of threat to the player - as the villain can now damage and potentially kill them – but it also allows the player to overcome that threat in a tangible way, thereby gaining agency within the story.</p> <br>
+				
 				<p>However, one expert did portray the story in a positive light, saying that the ability to ignore the story meant it did not distract from the gameplay, and that the placement of the NPC throughout the level allowed the player to naturally follow the storyline as they progressed through the level.</p> <br>
 
+				
 			  <h3>Navigation:</h3> <br> 
-				<p>The camera was the main point of concern regarding navigation with experts noting that the lack of camera acceleration/deceleration, as well as lack of an orientation reset function, left the navigation feeling rough and unpolished.</p> <br>
+				<p>The camera was the main point of concern regarding navigation with experts noting that the lack of camera acceleration/deceleration, as well as lack of an orientation reset function, left the navigation feeling rough and unpolished. Although this is a fairly fundamental part of the game, the issues identified here do not seem to be too severe, as neither of them prevent the player from completing the game. Despite this, small ease of use features such as the camera reset could allow the player to spend more time focusing on the combat and less time worrying about moving the camera, which in turn could lead to more successful and therefore satisfying gameplay.</p> <br>
 
         </section>
 
